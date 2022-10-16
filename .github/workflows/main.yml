@@ -31,7 +31,9 @@ jobs:
         with:
           python-version: '3.9'
           cache: 'pip'
-      - run: pip install -r requirements.txt
+      - run: |
+         echo "Hello Valentine"
+         pip install -r requirements.txt
 
       - id: jupyter 
         name: Jupyter Notebook Execution
