@@ -32,7 +32,7 @@ jobs:
           python-version: '3.9'
           cache: 'pip'
       - run: |
-         echo "Hello Valentine"
+         echo "Hello Val"
          pip install -r requirements.txt
 
       - id: jupyter 
